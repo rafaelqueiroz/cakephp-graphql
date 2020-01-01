@@ -1,0 +1,24 @@
+{
+    "name": "rafaelqueiroz/cakephp-graphql",
+    "description": "CakePHP plugin for GraphQL",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.5",
+        "webonyx/graphql-php": "^0.13.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakeGraphql\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CakeGraphql\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
